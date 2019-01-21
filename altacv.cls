@@ -199,12 +199,13 @@
     \endgroup
 }
 
-\newcommand{\cvref}[3]{%
+\newcommand{\cvref}[4]{%
   \smallskip
   \textcolor{emphasis}{\textbf{#1}}\par
   \begin{description}[font=\color{accent},style=multiline,leftmargin=1.25em]
   \item[\emailsymbol] #2
-  \item[\small\mailsymbol] #3
+  \item[\phonesymbol] #3 
+  \item[\small\mailsymbol] #4
   \end{description}
 %   \medskip
 }
